@@ -1,4 +1,3 @@
-
 import streamlit as st
 import pandas as pd
 import numpy as np
@@ -11,7 +10,7 @@ import time
 
 # Configure Streamlit page
 st.set_page_config(
-    page_title="Cosine Similarity Checker",
+    page_title="SelfCosine - Cosine Similarity Checker",
     page_icon="📊",
     layout="wide",
     initial_sidebar_state="expanded"
@@ -335,4 +334,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
